@@ -1,0 +1,5 @@
+Triplet: x86_64-flarebird-linux-gnu
+SysrootDir: /
+DefaultSearchPaths: /usr/lib64/pkgconfig:/usr/share/pkgconfig
+SystemIncludePaths: /usr/include
+SystemLibraryPaths: /usr/lib64
