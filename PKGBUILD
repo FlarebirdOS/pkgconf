@@ -1,12 +1,13 @@
 pkgname=pkgconf
 pkgver=2.5.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Package compiler and linker metadata toolkit"
 arch=('x86_64')
 url="http://pkgconf.org/"
 license=('ISC')
 groups=('base-devel')
 depends=('glibc')
+makedepends=('meson')
 source=(https://distfiles.ariadne.space/${pkgname}/${pkgname}-${pkgver}.tar.xz
     x86_64-flarebird-linux-gnu.personality
     i686-flarebird-linux-gnu.personality)
